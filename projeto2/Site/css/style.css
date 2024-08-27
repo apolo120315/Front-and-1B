@@ -12,8 +12,7 @@ img{
 li{
    font-size: 30px; 
    text-align: center;
-   text-decoration: none;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 h1{
     font-size: 40px;
@@ -33,18 +32,52 @@ h1{
     color: rgb(183, 0, 255);
   }
   100% {
-    color:  rgb(10, 26, 255);
+    color: rgb(0, 91, 170);
   }}
 div{
     width: 1000px;
     margin: auto;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: aliceblue;
     border-radius: 30px;
+    text-decoration: none;
 }
+
 .card{
     border: 10px solid blue;
     border-radius: 30px;
     display: block;
+    text-decoration: none;
+}
+.botao{
+  border: solid 1px #ffffff;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  background-color:rgb(14, 17, 228);
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+  align-items: center;
+  width: 24.8%;
+  height: 70px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 4px solid black;
+    animation: my-animation 5s infinite;
+  }
+
+    @keyframes my-animation {
+    0% {
+      border-color: rgb(59, 38, 179);
+    }
+    50% {
+      border-color: rgb(22, 157, 235);
+    }
+    100% {
+      border-color: rgb(96, 11, 207);
+    }
+}
+.botao:hover{
+  background-color: rgb(34, 10, 247);
+  color: rgb(0, 0, 0);
+  transform: scale(1.2)
 }
