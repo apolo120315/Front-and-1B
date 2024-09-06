@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: rgb(14, 160, 228);
+}
+.botao{
+    border: solid 1px #ffffff;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(13, 91, 194);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.botao:hover{
+    transform: scale(1.2)}
+nav{
+    border-radius: 10px;
+    border: 10px solid blue;
+    text-align: center;
+    display:flexbox;
+    padding: 5px;
+    margin: 20px auto;
+    }
+.card{
+      border: 10px solid blue;
+       border-radius: 30px;
+       width: 1000px;
+        margin: 10px auto;
+       display: flexbox;
+      flex-direction: column;
+       background-color: aliceblue;
+      border-radius: 30px;
+       text-decoration: none;}
